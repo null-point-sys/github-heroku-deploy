@@ -1,6 +1,8 @@
 const http = require('http');
 const port = process.env.PORT || 3000
+import express from 'express';
 
+/*
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
@@ -9,4 +11,8 @@ const server = http.createServer((req, res) => {
 
 server.listen(port,() => {
   console.log(`Server running at port `+port);
-});
+});*/
+
+const app = express();
+app.get('/', (req, res) => res.send('Hello World!'));
+app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
