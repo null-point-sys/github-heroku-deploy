@@ -15,3 +15,11 @@ $ git commit -m “first commit”
 $ git remote add origin https://github.com/null-point-sys/github-heroku-deploy.git
 
 $ git push --set-upstream origin master
+
+En package.json tenemos:
+
+"scripts": {
+  "start": "node app.js"
+},
+
+Que ejecuta el deploy automático en Heroku
