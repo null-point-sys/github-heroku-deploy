@@ -1,4 +1,4 @@
-# wbsckt
+# node js app para clonar en local deploy desde a repo github y de alli deploy automatico a Heroku sin CLI Heroku local
 
 Node js app http que permte despliegue automático hacia Heroku sin instalar la aplicación en local ni requerir CLI Heroku.
 
